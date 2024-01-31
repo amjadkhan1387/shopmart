@@ -1,0 +1,26 @@
+.card-container {
+    
+    display: flex;
+    justify-content: center;
+}
+  
+.card {
+    width: 14rem;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 80px;
+   
+}
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1) 
+}
+.moba {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.breadcrumb li a{
+    text-decoration: none;
+    color: inherit;
+}

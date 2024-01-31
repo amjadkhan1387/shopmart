@@ -1,0 +1,92 @@
+nav .container-fluid{
+    background: rgb(0, 0, 0);
+    height: 115px;
+}
+.navbar-brand img {
+    height: 90px;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+ 
+}
+.navbar-nav .nav-link.active {
+    color: rgb(153, 153, 143); /* Replace with your desired active color */
+    font-weight: 700;
+}
+.link-1{
+    text-decoration: none;
+    color: #ffffff;
+}
+.link-1:hover{
+    color: bisque;
+}
+
+.dropdown-menu .dropdown-item {
+    color: rgb(5, 4, 4); /* Set the text color to white for dropdown items */
+}
+.form-control {
+    width: 350px; /* Set your desired width */
+}
+
+/* Change the search button color */
+.btn-outline-success {
+    color: #000000; /* Set the text color to white */
+    background-color: #ffffff; /* Set your desired button color */
+    border-color: #000000; /* Set the border color to match the button color */
+}
+.btn-outline-success:hover{
+    background: black;
+}
+.navbar2 {
+    background-color: #333; /* Set your desired background color */
+    padding: 10px;
+    display: none; /* Initially hide navbar2 */
+  }
+  
+  .nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-menu li {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-menu li:hover .dropdown {
+    display: block; /* Show dropdown on hover */
+  }
+  
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #555; /* Set your desired dropdown background color */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown li {
+    display: block;
+  }
+  
+  .dropdown li a {
+    color: white; /* Set your desired text color */
+    padding: 12px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown li a:hover {
+    background-color: #777; /* Set your desired hover background color */
+  }
+  
+  /* Media query to show navbar2 on small screens */
+  @media (max-width: 768px) {
+    .navbar2 {
+      display: block;
+    }
+  }

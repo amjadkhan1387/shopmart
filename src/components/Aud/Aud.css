@@ -1,0 +1,30 @@
+.card-container {
+   
+    display: flex;
+    justify-content: center;
+}
+  
+.card {
+    width: 11rem;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 100px;
+   
+}
+
+.card h5{
+    font-size: 15px;
+}
+.card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1) 
+}
+.aud{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.heading-headset{
+    padding-top: 60px;
+    margin-left: -234px;
+}
+
